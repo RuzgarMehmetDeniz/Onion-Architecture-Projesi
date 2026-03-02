@@ -10,7 +10,6 @@ using UdemyCarBook.Domain.Entities;
 
 namespace UdemyCarBook.Application.Features.Mediator.Handlers.CarFeatureHandlers
 {
-
     public class CreateCarFeatureByCarCommandHandler : IRequestHandler<CreateCarFeatureByCarCommand>
     {
         private readonly ICarFeatureRepository _repository;
